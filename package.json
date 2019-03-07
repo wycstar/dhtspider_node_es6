@@ -1,0 +1,38 @@
+{
+  "name": "NodeDHTSpider",
+  "description": "A dht spider powered by node",
+  "version": "0.1.0",
+  "author": {
+    "name": "ycwoo"
+  },
+  "repository": "https://github.com/ycwoo/NodeDHTSpider",
+  "main": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/ycwoo/NodeDHTSpider/issues"
+  },
+  "scripts": {
+    "start": "babel-node --presets es2015 index.js"
+  },
+  "dependencies": {
+    "bencode": "^0.7.0",
+    "bitfield": "^1.1.2",
+    "iconv-lite": "^0.4.19",
+    "jschardet": "^1.5.1",
+    "moment": "^2.24.0",
+    "mongodb": "^2.2.31",
+    "pm2": "^2.7.1",
+    "redis": "^2.8.0",
+    "sprintf-js": "latest",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0"
+  },
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "p2p",
+    "dht",
+    "bthub",
+    "spider"
+  ],
+  "license": "MIT"
+}
